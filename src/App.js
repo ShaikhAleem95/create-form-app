@@ -1,4 +1,5 @@
 import React from 'react';
+import Usecaseupdate from './Usecaseupdate';
 
 import './Form.css';
 import Form from './Form';
@@ -8,8 +9,10 @@ function App() {
     <div className="App">
       <header className="App-header">
        
-        <Form/> 
-       
+        {/* <Form/> 
+        */}
+
+        <Usecaseupdate/>
       </header>
     </div>
   );
