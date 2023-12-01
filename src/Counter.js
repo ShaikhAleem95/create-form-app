@@ -1,6 +1,9 @@
 import React from 'react'
 import { useReducer } from 'react';
 
+
+//reducer used to state manupalate
+
 const initialstate=0;
 const reducer=(state,action)=>{
  switch(action){
