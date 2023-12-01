@@ -1,18 +1,21 @@
 import React from 'react';
-import Usecaseupdate from './Usecaseupdate';
 
 import './Form.css';
 import Form from './Form';
+
+import Usecaseupdate from './Usecaseupdate';
+
+import Counter from './Counter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
        
-        {/* <Form/> 
-        */}
+        {/* <Form/>  */}
+        {/* <Usecaseupdate/> */}
 
-        <Usecaseupdate/>
+         <Counter/>
       </header>
     </div>
   );
